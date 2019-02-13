@@ -1,0 +1,17 @@
+{
+  "id": "templatemod",
+  "name": "TemplateMod",
+  "description": "Fabric mod template",
+  "version": "${version}",
+  "side": "universal",
+  "initializers": [
+    "me.xa5.templatemod.TMInit",
+    "me.xa5.templatemod.TMInitClient"
+  ],
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "common": "mixins.tmf.common.json"
+  }
+}
